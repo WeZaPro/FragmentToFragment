@@ -74,6 +74,7 @@ public class AFragment extends Fragment {
             public void onChanged(@Nullable String s) {
                 //txtName.setText(s);
                 Toast.makeText(getActivity(),"Str = "+s,Toast.LENGTH_SHORT).show();
+                editTextA.setText(s);
             }
         });
     }
